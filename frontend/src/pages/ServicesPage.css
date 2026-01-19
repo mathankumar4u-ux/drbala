@@ -1,0 +1,101 @@
+.services-page .services-list {
+  background-color: var(--color-bg-secondary);
+}
+
+.services-intro {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-2xl);
+  text-align: center;
+}
+
+.services-intro p {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+}
+
+.services-page .services-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .services-page .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Service Item */
+.service-item {
+  display: block;
+  background-color: var(--color-bg-primary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-light);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.service-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+}
+
+.service-item-content {
+  padding: var(--spacing-xl);
+}
+
+.service-item h2 {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.service-item p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+}
+
+.learn-more svg {
+  transition: transform var(--transition-fast);
+}
+
+.service-item:hover .learn-more svg {
+  transform: translateX(4px);
+}
+
+/* CTA Section */
+.services-cta-section {
+  background-color: var(--color-bg-primary);
+  padding: var(--spacing-3xl) 0;
+}
+
+.cta-box {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: var(--spacing-2xl);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+}
+
+.cta-box h2 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.cta-box p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+}

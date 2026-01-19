@@ -1,0 +1,79 @@
+.privacy-content {
+  background-color: var(--color-bg-secondary);
+}
+
+.privacy-text {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--color-bg-primary);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-light);
+}
+
+@media (min-width: 768px) {
+  .privacy-text {
+    padding: var(--spacing-2xl);
+  }
+}
+
+.last-updated {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xl);
+  font-style: italic;
+}
+
+.privacy-text h2 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border-light);
+}
+
+.privacy-text h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.privacy-text p {
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+}
+
+.privacy-text ul {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-lg);
+}
+
+.privacy-text li {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.privacy-text strong {
+  color: var(--color-text-primary);
+}
+
+.privacy-text a {
+  color: var(--color-primary);
+}
+
+.privacy-text a:hover {
+  text-decoration: underline;
+}
+
+.contact-details {
+  background-color: var(--color-bg-tertiary);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.contact-details p {
+  margin: 0;
+}

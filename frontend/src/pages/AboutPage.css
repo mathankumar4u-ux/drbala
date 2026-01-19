@@ -1,0 +1,250 @@
+/* Page Header */
+.page-header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-text-inverse);
+  padding: var(--spacing-3xl) 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-inverse);
+}
+
+.page-header p {
+  font-size: var(--font-size-lg);
+  opacity: 0.9;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    padding: var(--spacing-4xl) 0;
+  }
+
+  .page-header h1 {
+    font-size: var(--font-size-4xl);
+  }
+}
+
+/* Doctor Section */
+.doctor-section {
+  background-color: var(--color-bg-secondary);
+}
+
+.doctor-profile {
+  display: grid;
+  gap: var(--spacing-2xl);
+}
+
+@media (min-width: 1024px) {
+  .doctor-profile {
+    grid-template-columns: 350px 1fr;
+    gap: var(--spacing-3xl);
+  }
+}
+
+.doctor-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.doctor-image-placeholder {
+  width: 300px;
+  height: 380px;
+  background-color: var(--color-bg-tertiary);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-light);
+  border: 2px dashed var(--color-border);
+}
+
+.doctor-image-placeholder svg {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-primary);
+  opacity: 0.5;
+}
+
+.doctor-details h2 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-xs);
+}
+
+.doctor-qualifications {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-lg);
+}
+
+.doctor-bio p {
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+}
+
+.doctor-info-cards {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+@media (min-width: 640px) {
+  .doctor-info-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.info-card {
+  background-color: var(--color-bg-primary);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-light);
+}
+
+.info-card h4 {
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-card li {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  padding: var(--spacing-xs) 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.info-card li:last-child {
+  border-bottom: none;
+}
+
+.hospital-location {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-light);
+}
+
+/* Practice Section */
+.practice-section {
+  background-color: var(--color-bg-primary);
+}
+
+.practice-content h2 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.practice-intro {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: 800px;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.practice-features {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-3xl);
+}
+
+@media (min-width: 640px) {
+  .practice-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .practice-features {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.feature-card {
+  background-color: var(--color-bg-secondary);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 95, 138, 0.1);
+  color: var(--color-primary);
+  border-radius: var(--radius-md);
+  margin: 0 auto var(--spacing-md);
+}
+
+.feature-card h4 {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-sm);
+}
+
+.feature-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Practice Location */
+.practice-location h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.location-details {
+  display: grid;
+  gap: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .location-details {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+.address-info p {
+  margin-bottom: var(--spacing-md);
+  line-height: var(--line-height-relaxed);
+}
+
+.address-info strong {
+  color: var(--color-text-primary);
+}
+
+.map-container {
+  min-height: 300px;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  background-color: var(--color-bg-tertiary);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-light);
+  border: 2px dashed var(--color-border);
+}
+
+.map-placeholder svg {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-primary);
+  opacity: 0.5;
+}
