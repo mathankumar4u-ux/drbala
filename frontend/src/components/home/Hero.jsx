@@ -53,14 +53,11 @@ function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <div className="hero-image-placeholder">
-              <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1 4 2 5.5 1 1.5 2 3 2 5.5 0 1 .5 2 2 2s2-1 2-2c0-2.5 1-4 2-5.5 1-1.5 2-3 2-5.5 0-3.5-2.5-6-6-6z"/>
-                <path d="M12 6v2"/>
-              </svg>
-              <p>Professional dental clinic image</p>
-              <small>Replace with actual image from Unsplash/Pexels</small>
-            </div>
+            <img
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=500&fit=crop"
+              alt="Modern dental clinic with state-of-the-art equipment"
+              className="hero-img"
+            />
             <div className="hero-badge">
               <span className="badge-number">{doctorInfo.experience}</span>
               <span className="badge-text">Years Experience</span>

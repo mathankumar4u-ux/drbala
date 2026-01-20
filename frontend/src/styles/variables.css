@@ -1,17 +1,26 @@
 :root {
-  /* Primary Colors */
-  --color-primary: #1E5F8A;
-  --color-primary-dark: #164a6b;
-  --color-primary-light: #2a7ab0;
+  /* Primary Colors - Vivid Blue */
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-primary-light: #3B82F6;
 
-  /* Secondary Colors */
-  --color-secondary: #2E8B57;
-  --color-secondary-dark: #246d45;
-  --color-secondary-light: #3aa96a;
+  /* Secondary Colors - Emerald Green */
+  --color-secondary: #059669;
+  --color-secondary-dark: #047857;
+  --color-secondary-light: #10B981;
 
-  /* Accent Colors */
-  --color-accent: #4A90A4;
-  --color-accent-light: #6ba8b9;
+  /* Accent Colors - Cyan */
+  --color-accent: #0891B2;
+  --color-accent-light: #22D3EE;
+
+  /* Warm Color - Amber for CTAs */
+  --color-warm: #F59E0B;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  --gradient-hero: linear-gradient(135deg, #2563EB 0%, #0891B2 100%);
+  --gradient-section: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+  --gradient-footer: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
 
   /* Background Colors */
   --color-bg-primary: #F8FAFB;

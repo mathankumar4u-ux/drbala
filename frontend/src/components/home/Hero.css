@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(135deg, var(--color-bg-primary) 0%, var(--color-bg-tertiary) 100%);
+  background: var(--gradient-section);
   padding: var(--spacing-3xl) 0;
   overflow: hidden;
 }
@@ -119,34 +119,13 @@
   }
 }
 
-.hero-image-placeholder {
-  background-color: var(--color-bg-secondary);
-  border-radius: var(--radius-xl);
-  padding: var(--spacing-3xl);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.hero-img {
+  width: 100%;
+  height: auto;
   min-height: 400px;
-  color: var(--color-text-light);
-  text-align: center;
-  border: 2px dashed var(--color-border);
-}
-
-.hero-image-placeholder svg {
-  margin-bottom: var(--spacing-md);
-  color: var(--color-primary);
-  opacity: 0.5;
-}
-
-.hero-image-placeholder p {
-  font-size: var(--font-size-sm);
-  margin-bottom: var(--spacing-xs);
-}
-
-.hero-image-placeholder small {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-light);
+  object-fit: cover;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
 }
 
 /* Hero Badge */

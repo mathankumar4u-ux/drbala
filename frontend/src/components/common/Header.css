@@ -8,7 +8,7 @@
 
 /* Header Top Bar */
 .header-top {
-  background-color: var(--color-primary);
+  background: var(--gradient-hero);
   color: var(--color-text-inverse);
   padding: var(--spacing-xs) 0;
   font-size: var(--font-size-sm);
@@ -201,25 +201,29 @@
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background: var(--gradient-primary);
   color: var(--color-text-inverse);
+  box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.4);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-dark);
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
   color: var(--color-text-inverse);
   text-decoration: none;
+  box-shadow: 0 6px 20px 0 rgba(37, 99, 235, 0.5);
 }
 
 .btn-secondary {
-  background-color: var(--color-secondary);
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
   color: var(--color-text-inverse);
+  box-shadow: 0 4px 14px 0 rgba(5, 150, 105, 0.4);
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-secondary-dark);
+  background: linear-gradient(135deg, #047857 0%, #065F46 100%);
   color: var(--color-text-inverse);
   text-decoration: none;
+  box-shadow: 0 6px 20px 0 rgba(5, 150, 105, 0.5);
 }
 
 .btn-outline {
