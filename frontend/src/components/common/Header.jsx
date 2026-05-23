@@ -40,16 +40,11 @@ function Header() {
         <div className="container">
           <div className="header-main-content">
             <Link to="/" className="header-logo" onClick={closeMobileMenu}>
-              <div className="logo-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1 4 2 5.5 1 1.5 2 3 2 5.5 0 1 .5 2 2 2s2-1 2-2c0-2.5 1-4 2-5.5 1-1.5 2-3 2-5.5 0-3.5-2.5-6-6-6z"/>
-                  <path d="M12 6v2"/>
-                </svg>
-              </div>
-              <div className="logo-text">
-                <span className="logo-name">OralSurgeon.Care</span>
-                <span className="logo-tagline">Dr Balanand Subramanian</span>
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="Moorabbin Oral Surgery"
+                style={{ height: '56px', width: 'auto', display: 'block' }}
+              />
             </Link>
 
             <Navigation
