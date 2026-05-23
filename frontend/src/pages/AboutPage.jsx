@@ -22,7 +22,7 @@ function AboutPage() {
         <section className="page-header">
           <div className="container">
             <h1>{section === 'practice' ? 'Our Practice' : `About ${doctorInfo.shortName}`}</h1>
-            <p>Expert oral surgery care in Melbourne's Bayside area</p>
+            <p>Providing top-notch oral surgery care to the Bayside community for over two decades</p>
           </div>
         </section>
 
@@ -107,10 +107,19 @@ function AboutPage() {
               <div className="practice-content">
                 <h2>Our Practice</h2>
                 <p className="practice-intro">
-                  {practiceInfo.name} has been providing specialist oral surgery services
-                  to Melbourne's Bayside community for over two decades. Our modern facility
-                  is equipped with the latest technology to ensure safe, comfortable, and
-                  effective treatment.
+                  At Moorabbin Oral Surgery, we've been providing top-notch oral surgery care
+                  to the Bayside community, south eastern suburbs and western suburbs for over
+                  two decades. Our experienced surgeons are dedicated to making your procedure
+                  as comfortable and stress-free as possible.
+                </p>
+                <p className="practice-intro">
+                  What sets us apart? Our commitment to personalised care, state-of-the-art
+                  techniques, and a focus on long-lasting results. Whether you need wisdom
+                  teeth removal, dental implants, or TMJ treatment, we're here to help.
+                </p>
+                <p className="practice-intro">
+                  Ready to take the next step? Schedule a consultation today and experience
+                  the Moorabbin Oral Surgery difference.
                 </p>
 
                 <div className="practice-features">
@@ -121,10 +130,10 @@ function AboutPage() {
                         <circle cx="12" cy="10" r="3"/>
                       </svg>
                     </div>
-                    <h4>Convenient Location</h4>
+                    <h4>Personalised Care</h4>
                     <p>
-                      Located in Moorabbin with easy access from all Bayside suburbs.
-                      Free parking available on-site.
+                      Every patient is unique. We take the time to understand your needs
+                      and tailor your treatment for the best possible outcome.
                     </p>
                   </div>
 
@@ -137,10 +146,10 @@ function AboutPage() {
                         <line x1="3" y1="10" x2="21" y2="10"/>
                       </svg>
                     </div>
-                    <h4>Flexible Appointments</h4>
+                    <h4>State-of-the-Art Techniques</h4>
                     <p>
-                      Open Monday to Friday, 9am to 5pm. We accommodate urgent cases
-                      and work with your schedule.
+                      We use the latest surgical techniques and modern equipment to ensure
+                      safe, comfortable, and effective treatment for every patient.
                     </p>
                   </div>
 
@@ -150,10 +159,10 @@ function AboutPage() {
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                       </svg>
                     </div>
-                    <h4>Safe & Sterile</h4>
+                    <h4>Long-Lasting Results</h4>
                     <p>
-                      Our facilities meet the highest infection control standards.
-                      Your safety is our priority.
+                      Our focus is on outcomes that stand the test of time — from wisdom
+                      teeth removal to dental implants, we're committed to your long-term health.
                     </p>
                   </div>
 
@@ -164,10 +173,10 @@ function AboutPage() {
                         <path d="M16 12h-4v-4"/>
                       </svg>
                     </div>
-                    <h4>Modern Technology</h4>
+                    <h4>Stress-Free Experience</h4>
                     <p>
-                      State-of-the-art digital imaging and surgical equipment
-                      for precise diagnosis and treatment.
+                      Our experienced surgeons are dedicated to making your procedure
+                      as comfortable and stress-free as possible, from consultation to recovery.
                     </p>
                   </div>
                 </div>
