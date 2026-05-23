@@ -9,13 +9,13 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Expert Oral Surgery Care in Melbourne
+              Welcome to Moorabbin Oral Surgery
             </h1>
             <p className="hero-subtitle">
-              {doctorInfo.name}, {doctorInfo.title}, provides comprehensive
-              oral surgical services with over {doctorInfo.experience} of experience.
-              From wisdom teeth removal to dental implants, receive expert care
-              in a comfortable environment.
+              At Moorabbin Oral Surgery, we've been providing top-notch oral surgery care
+              to the Bayside community, south eastern suburbs and western suburbs for over
+              two decades. Our experienced surgeons are dedicated to making your procedure
+              as comfortable and stress-free as possible.
             </p>
             <div className="hero-features">
               <div className="hero-feature">
@@ -23,21 +23,21 @@ function Hero() {
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
                   <polyline points="22 4 12 14.01 9 11.01"/>
                 </svg>
-                <span>Specialist Oral Surgeon</span>
+                <span>Personalised Care</span>
               </div>
               <div className="hero-feature">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
                   <polyline points="22 4 12 14.01 9 11.01"/>
                 </svg>
-                <span>{doctorInfo.experience} Experience</span>
+                <span>State-of-the-Art Techniques</span>
               </div>
               <div className="hero-feature">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
                   <polyline points="22 4 12 14.01 9 11.01"/>
                 </svg>
-                <span>Multiple Languages</span>
+                <span>Long-Lasting Results</span>
               </div>
             </div>
             <div className="hero-actions">

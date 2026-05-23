@@ -1,7 +1,7 @@
 export const practiceInfo = {
   name: 'OralSurgeon.Care',
   tagline: 'Expert Oral Surgery Care in Melbourne',
-  description: 'Specialist oral surgery services in Moorabbin, Melbourne. Dr Balanand Subramanian provides expert care for wisdom teeth removal, dental implants, and comprehensive oral surgical procedures.',
+  description: 'Moorabbin Oral Surgery has been providing top-notch oral surgery care to the Bayside community, south eastern suburbs and western suburbs for over two decades. Our experienced surgeons are dedicated to making your procedure as comfortable and stress-free as possible.',
 
   contact: {
     phone: '(03) 9555 5960',

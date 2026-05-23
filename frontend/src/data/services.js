@@ -6,22 +6,22 @@ export const services = [
     icon: 'tooth',
     featured: true,
     content: {
-      overview: `Wisdom teeth, or third molars, typically emerge between ages 17-25. While some wisdom teeth come through without issues, many become impacted or cause problems that require surgical removal.
+      overview: `Wisdom teeth, also known as third molars, are the last teeth to erupt in your mouth. They usually appear between ages 18 and 24, but sometimes they can become impacted due to lack of space in your jaw.
 
-Dr Bala specialises in both simple and complex wisdom teeth extractions, including impacted wisdom teeth that are trapped beneath the gum or bone.`,
+Our experienced surgeons will carefully assess your situation and recommend the best course of action. We offer both local and general anesthesia for your comfort.`,
 
       reasons: [
-        'Impaction - teeth trapped beneath gum or bone',
-        'Crowding of other teeth',
-        'Infection or gum disease around the tooth',
-        'Decay that cannot be treated',
+        'Pain and discomfort',
+        'Infection',
+        'Damage to adjacent teeth',
         'Cysts or tumours',
-        'Pain or discomfort'
+        'Impaction - teeth trapped beneath gum or bone',
+        'Crowding of other teeth'
       ],
 
-      procedure: `The procedure is typically performed under local anaesthesia, with sedation options available for anxious patients. Dr Bala uses advanced surgical techniques to minimise trauma and promote faster healing.
+      procedure: `Our experienced surgeons will carefully assess your situation and recommend the best course of action. We offer both local and general anesthesia for your comfort.
 
-Most patients can return to normal activities within a few days, with complete healing occurring over several weeks.`,
+Recovery from wisdom teeth removal is typically quick, especially for younger patients. Don't let wisdom teeth problems affect your quality of life.`,
 
       recovery: [
         'Rest for 24-48 hours after surgery',
@@ -44,20 +44,20 @@ Most patients can return to normal activities within a few days, with complete h
     icon: 'implant',
     featured: true,
     content: {
-      overview: `Dental implants are the gold standard for replacing missing teeth. They consist of a titanium post that is surgically placed into the jawbone, providing a stable foundation for a crown, bridge, or denture.
+      overview: `Are you missing teeth and looking for a solution that feels and looks like your natural teeth? Dental implants may be the perfect option for you.
 
-Dr Bala has extensive experience in implant placement, including complex cases requiring bone grafting.`,
+Dental implants are a two-step process: our experienced surgeons carefully place a titanium implant into your jawbone, then your dentist attaches a crown or bridge to the implant, restoring your smile and function.`,
 
       benefits: [
-        'Look and function like natural teeth',
+        'Improved appearance - dental implants can give you a natural-looking smile',
+        'Enhanced function - enjoy eating and speaking comfortably again',
+        'Durability - a long-lasting solution that can last for many years',
         'Preserve jawbone and facial structure',
         'Do not affect adjacent teeth',
-        'Long-lasting - can last a lifetime with proper care',
-        'Improved speech and eating ability',
         'Enhanced confidence and quality of life'
       ],
 
-      procedure: `The implant process typically involves multiple stages over several months. First, the titanium implant is placed into the jawbone. After a healing period of 3-6 months, during which the implant fuses with the bone, an abutment and crown are attached.
+      procedure: `The implant process typically involves multiple stages over several months. First, the titanium implant is placed into the jawbone (Surgical Placement). After a healing period of 3-6 months, during which the implant fuses with the bone, an abutment and crown are attached (Restorative Phase).
 
 Dr Bala works closely with your dentist to ensure the best possible outcome.`,
 
@@ -75,26 +75,67 @@ Dr Bala works closely with your dentist to ensure the best possible outcome.`,
     }
   },
   {
+    id: 'all-on-four',
+    title: 'All-on-Four Dental Implants',
+    shortDescription: 'A comprehensive solution for replacing a full arch of missing teeth with just four strategically placed implants.',
+    icon: 'implant',
+    featured: false,
+    content: {
+      overview: `Are you missing multiple teeth and looking for a reliable, long-lasting solution? The All-on-Four procedure offers a comprehensive approach to restoring your smile.
+
+With All-on-Four, we strategically place four dental implants in your jawbone. These implants then securely support a full arch of replacement teeth, giving you a natural-looking and functional smile.`,
+
+      benefits: [
+        'Improved appearance - enjoy a beautiful, natural-looking smile',
+        'Enhanced function - eat, speak, and laugh with confidence',
+        'Faster recovery - often involves a shorter recovery time than traditional implant procedures',
+        'Cost-effective solution for replacing multiple teeth',
+        'Secure, fixed result - no removable dentures'
+      ],
+
+      procedure: `Four dental implants are strategically placed in the jawbone to maximise bone contact and provide a secure foundation. A full arch of replacement teeth is then attached to these four implants.
+
+This approach often eliminates the need for bone grafting and can be completed in fewer appointments than traditional implants.`,
+
+      candidates: [
+        'Adults missing most or all teeth in an arch',
+        'Those with some bone loss who may not qualify for traditional implants',
+        'Patients looking for a fixed, non-removable solution',
+        'Those seeking a cost-effective alternative to individual implants'
+      ]
+    },
+    seo: {
+      title: 'All-on-Four Dental Implants Melbourne | Full Arch Replacement',
+      description: 'All-on-Four dental implants in Moorabbin. Replace a full arch of missing teeth with just four implants. Expert care by Dr Bala. Book a consultation.'
+    }
+  },
+  {
     id: 'tooth-extractions',
     title: 'Tooth Extractions',
     shortDescription: 'Safe and comfortable removal of damaged, decayed, or problematic teeth.',
     icon: 'extraction',
     featured: false,
     content: {
-      overview: `Sometimes a tooth cannot be saved and needs to be removed. Dr Bala performs both simple and surgical extractions, ensuring patient comfort throughout the procedure.
+      overview: `Sometimes, complex tooth anatomy, medical conditions, or medications can make tooth extraction a more involved procedure. That's where our experienced surgeons at Moorabbin Oral Surgery come in.
 
-Complex extractions, including teeth that are broken, severely decayed, or have curved roots, are handled with expert care.`,
+Our surgeons will carefully assess your situation and recommend the best approach. You can choose between general anesthesia or local anesthesia for your comfort.`,
 
       reasons: [
+        'Complex tooth anatomy - impacted, misaligned, or deep-rooted teeth',
+        'Medical conditions such as osteoporosis or blood clotting disorders',
+        'Over-retained baby teeth fused to the underlying bone',
         'Severe tooth decay',
         'Advanced gum disease',
-        'Broken or fractured teeth',
-        'Crowded teeth requiring orthodontic treatment',
-        'Failed root canal treatment',
         'Preparation for dentures or implants'
       ],
 
-      procedure: `Local anaesthesia is used to ensure you feel no pain during the procedure. Sedation options are available for anxious patients. Dr Bala uses gentle techniques to minimise trauma to surrounding tissues.`,
+      procedure: `Our surgeons will carefully assess your situation and recommend the best approach. You can choose between general anesthesia or local anesthesia for your comfort. We use gentle techniques to minimise trauma to surrounding tissues.`,
+
+      benefits: [
+        'Pain relief from impacted or damaged teeth',
+        'Improved oral health - prevents infections, gum disease, and other complications',
+        'Enhanced aesthetics - replacing missing teeth can improve your smile and overall appearance'
+      ],
 
       aftercare: [
         'Bite on gauze for 30-45 minutes after extraction',
@@ -117,9 +158,9 @@ Complex extractions, including teeth that are broken, severely decayed, or have 
     icon: 'bone',
     featured: false,
     content: {
-      overview: `Bone grafting is a surgical procedure that replaces missing bone to support dental implants or restore facial structure. When teeth are lost, the jawbone naturally shrinks over time, which can make implant placement difficult.
+      overview: `If you're missing teeth and have experienced bone loss in your jaw, bone grafting may be necessary before dental implant placement. Bone grafting involves adding bone material to your jawbone to create a suitable environment for dental implants, improving the success rate of your implant treatment.
 
-Dr Bala offers various bone grafting techniques tailored to each patient's specific needs.`,
+Moorabbin Oral Surgery offers various bone grafting techniques tailored to each patient's specific needs.`,
 
       types: [
         'Socket preservation - placed at time of extraction',
@@ -129,10 +170,16 @@ Dr Bala offers various bone grafting techniques tailored to each patient's speci
       ],
 
       sources: [
-        'Autograft - bone from your own body (most predictable)',
-        'Allograft - processed human donor bone',
+        'Autografts - bone taken from another part of your own body (most predictable)',
+        'Allografts - bone substitutes made from synthetic or donor materials',
         'Xenograft - processed animal bone',
         'Synthetic materials - biocompatible bone substitutes'
+      ],
+
+      benefits: [
+        'Improved dental implant success - increases the chances of implants integrating with your jawbone',
+        'Restored smile - with bone grafting and dental implants, you can enjoy a beautiful and functional smile',
+        'Preserves facial structure and prevents further bone loss'
       ],
 
       healing: `Bone grafts typically require 4-6 months to heal before implant placement. Dr Bala will monitor your healing and determine the optimal time for the next stage of treatment.`
@@ -149,19 +196,19 @@ Dr Bala offers various bone grafting techniques tailored to each patient's speci
     icon: 'braces',
     featured: false,
     content: {
-      overview: `Sometimes teeth, particularly canines, fail to erupt properly and become impacted beneath the gum or bone. These teeth can often be saved through a combined approach of surgery and orthodontics.
+      overview: `Impacted teeth can sometimes become misaligned, affecting your smile and oral function. At Moorabbin Oral Surgery, we offer a specialised procedure called exposure of impacted teeth to help correct these issues.
 
-Dr Bala works closely with orthodontists to expose impacted teeth and attach brackets that allow them to be guided into their correct position.`,
+Exposure of impacted teeth involves surgically uncovering a partially or fully buried tooth to allow it to erupt naturally. This procedure is often followed by orthodontic treatment to guide the tooth into its proper position.`,
 
       procedure: `The procedure involves making a small incision in the gum to expose the impacted tooth. A bracket is then bonded to the tooth, and a chain or elastic is attached to connect it to the orthodontic braces.
 
-Over several months, the orthodontist applies gentle pressure to guide the tooth into its correct position.`,
+Over several months, the orthodontist applies gentle pressure to guide the tooth into its correct position. Our team of experienced surgeons and orthodontists work together to create a personalised treatment plan.`,
 
       benefits: [
-        'Preserves the natural tooth',
-        'Avoids the need for implants or bridges',
-        'Achieves optimal bite alignment',
-        'Maintains proper spacing'
+        'Improved aesthetics - a straighter smile can boost your confidence and self-esteem',
+        'Enhanced function - properly aligned teeth improve your chewing and biting ability',
+        'Reduced risk of complications - prevents future dental problems such as infections or damage to adjacent teeth',
+        'Preserves the natural tooth, avoiding the need for implants or bridges'
       ],
 
       recovery: `Recovery is typically quick, with most patients returning to normal activities within a few days. Some swelling and discomfort is normal and can be managed with ice and medication.`
@@ -178,24 +225,25 @@ Over several months, the orthodontist applies gentle pressure to guide the tooth
     icon: 'microscope',
     featured: false,
     content: {
-      overview: `Oral pathology involves the diagnosis and management of diseases affecting the oral and maxillofacial region. This includes lesions, cysts, tumours, and other abnormalities of the mouth, jaw, and associated structures.
+      overview: `Your oral health is a vital part of your overall well-being. Oral pathology is the study of diseases that affect the mouth and surrounding tissues. These diseases can manifest as changes in the appearance of your oral mucosa, such as white or red patches.
 
-Dr Bala provides comprehensive assessment and treatment of oral pathology conditions.`,
+Recognising and addressing oral pathology early can prevent complications and improve your quality of life. Dr Bala provides comprehensive assessment and treatment of oral pathology conditions.`,
 
       conditions: [
+        'Sores or ulcers that don\'t heal',
+        'White or red patches on the tongue, gums, or inner cheeks',
+        'Difficulty chewing or swallowing',
+        'Loose teeth',
+        'Jaw pain or swelling',
         'Oral cysts and tumours',
-        'Mucosal lesions and ulcers',
-        'White and red patches (leukoplakia, erythroplakia)',
-        'Oral cancer screening',
-        'Salivary gland disorders',
-        'Jaw bone abnormalities'
+        'Salivary gland disorders'
       ],
 
-      importance: `Early detection of oral pathology is crucial, as some conditions can be precancerous or malignant. Regular dental check-ups and prompt evaluation of any unusual changes in your mouth are essential.
+      importance: `Early detection of oral diseases can help prevent serious complications, including cancer, infections, and functional impairments. Regular dental check-ups are essential for maintaining good oral health and detecting potential problems early.
 
-If your dentist notices anything unusual, they may refer you to Dr Bala for further assessment and biopsy if needed.`,
+If you notice any unusual changes in your mouth, don't delay — schedule a consultation for a thorough examination. We may recommend a biopsy to determine the cause and develop a personalised treatment plan.`,
 
-      treatment: `Treatment depends on the specific diagnosis and may range from monitoring to surgical removal. Dr Bala will explain your diagnosis and all treatment options clearly.`
+      treatment: `Treatment depends on the specific diagnosis and may range from monitoring to surgical removal. Dr Bala will explain your diagnosis and all treatment options clearly, ensuring you understand each step of your care.`
     },
     seo: {
       title: 'Oral Pathology Melbourne | Oral Disease Diagnosis',
