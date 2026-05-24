@@ -20,6 +20,15 @@
   opacity: 0.8;
 }
 
+/* Service Hero Image */
+.service-detail-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
 /* Content Layout */
 .service-content {
   background-color: var(--color-bg-secondary);

@@ -48,6 +48,13 @@ function ServicesOverview() {
               to={`/services/${service.id}`}
               className="service-card"
             >
+              {service.image && (
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="service-card-img"
+                />
+              )}
               <div className="service-icon">
                 {serviceIcons[service.icon] || serviceIcons.tooth}
               </div>

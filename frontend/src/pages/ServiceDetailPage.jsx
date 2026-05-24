@@ -37,6 +37,13 @@ function ServiceDetailPage() {
 
         <section className="service-content section">
           <div className="container">
+            {service.image && (
+              <img
+                src={service.image}
+                alt={service.title}
+                className="service-detail-img"
+              />
+            )}
             <div className="content-layout">
               <div className="main-content">
                 {/* Overview */}

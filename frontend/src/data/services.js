@@ -4,6 +4,7 @@ export const services = [
     title: 'Wisdom Teeth Removal',
     shortDescription: 'Expert surgical removal of wisdom teeth with minimal discomfort and fast recovery.',
     icon: 'tooth',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffbb319adf4?w=800&h=500&fit=crop',
     featured: true,
     content: {
       overview: `Wisdom teeth, also known as third molars, are the last teeth to erupt in your mouth. They usually appear between ages 18 and 24, but sometimes they can become impacted due to lack of space in your jaw.
@@ -42,6 +43,7 @@ Recovery from wisdom teeth removal is typically quick, especially for younger pa
     title: 'Dental Implants',
     shortDescription: 'Permanent tooth replacement solutions that look, feel, and function like natural teeth.',
     icon: 'implant',
+    image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&h=500&fit=crop',
     featured: true,
     content: {
       overview: `Are you missing teeth and looking for a solution that feels and looks like your natural teeth? Dental implants may be the perfect option for you.
@@ -79,6 +81,7 @@ Dr Bala works closely with your dentist to ensure the best possible outcome.`,
     title: 'All-on-Four Dental Implants',
     shortDescription: 'A comprehensive solution for replacing a full arch of missing teeth with just four strategically placed implants.',
     icon: 'implant',
+    image: 'https://images.unsplash.com/photo-1629909615957-be38d48fbbe4?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `Are you missing multiple teeth and looking for a reliable, long-lasting solution? The All-on-Four procedure offers a comprehensive approach to restoring your smile.
@@ -114,6 +117,7 @@ This approach often eliminates the need for bone grafting and can be completed i
     title: 'Tooth Extractions',
     shortDescription: 'Safe and comfortable removal of damaged, decayed, or problematic teeth.',
     icon: 'extraction',
+    image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `Sometimes, complex tooth anatomy, medical conditions, or medications can make tooth extraction a more involved procedure. That's where our experienced surgeons at Moorabbin Oral Surgery come in.
@@ -156,6 +160,7 @@ Our surgeons will carefully assess your situation and recommend the best approac
     title: 'Bone Grafting',
     shortDescription: 'Rebuilding jawbone to support dental implants and restore facial structure.',
     icon: 'bone',
+    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `If you're missing teeth and have experienced bone loss in your jaw, bone grafting may be necessary before dental implant placement. Bone grafting involves adding bone material to your jawbone to create a suitable environment for dental implants, improving the success rate of your implant treatment.
@@ -194,6 +199,7 @@ Moorabbin Oral Surgery offers various bone grafting techniques tailored to each 
     title: 'Exposure of Impacted Teeth',
     shortDescription: 'Surgical exposure of impacted teeth to assist with orthodontic treatment.',
     icon: 'braces',
+    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `Impacted teeth can sometimes become misaligned, affecting your smile and oral function. At Moorabbin Oral Surgery, we offer a specialised procedure called exposure of impacted teeth to help correct these issues.
@@ -223,6 +229,7 @@ Over several months, the orthodontist applies gentle pressure to guide the tooth
     title: 'Oral Pathology',
     shortDescription: 'Diagnosis and treatment of diseases affecting the mouth, jaw, and facial structures.',
     icon: 'microscope',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `Your oral health is a vital part of your overall well-being. Oral pathology is the study of diseases that affect the mouth and surrounding tissues. These diseases can manifest as changes in the appearance of your oral mucosa, such as white or red patches.
@@ -255,6 +262,7 @@ If you notice any unusual changes in your mouth, don't delay — schedule a cons
     title: 'TMJ Treatment',
     shortDescription: 'Evaluation and management of temporomandibular joint disorders and jaw pain.',
     icon: 'jaw',
+    image: 'https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `The temporomandibular joint (TMJ) connects your jaw to your skull. TMJ disorders can cause pain, clicking, locking, and difficulty opening or closing your mouth.
@@ -298,6 +306,7 @@ Dr Bala provides comprehensive evaluation of TMJ problems and develops individua
     title: 'Trauma Surgery',
     shortDescription: 'Emergency treatment of facial injuries, broken teeth, and jaw fractures.',
     icon: 'emergency',
+    image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&h=500&fit=crop',
     featured: false,
     content: {
       overview: `Facial trauma requires prompt, expert care to ensure proper healing and minimise long-term complications. Dr Bala is experienced in treating a wide range of traumatic injuries to the face, jaws, and teeth.
