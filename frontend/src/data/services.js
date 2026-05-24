@@ -4,7 +4,7 @@ export const services = [
     title: 'Wisdom Teeth Removal',
     shortDescription: 'Expert surgical removal of wisdom teeth with minimal discomfort and fast recovery.',
     icon: 'tooth',
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffbb319adf4?w=800&h=500&fit=crop',
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=500&fit=crop',
     featured: true,
     content: {
       overview: `Wisdom teeth, also known as third molars, are the last teeth to erupt in your mouth. They usually appear between ages 18 and 24, but sometimes they can become impacted due to lack of space in your jaw.
